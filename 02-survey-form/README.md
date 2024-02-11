@@ -1,1 +1,1 @@
-<img src="survey.png" width="400" height="200">
+<img src="survey.png" width="700" height="400">
