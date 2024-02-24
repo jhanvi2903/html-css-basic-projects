@@ -1,0 +1,207 @@
+/*CSS Reset*/
+*{
+    margin:0px;
+    padding:0px;
+}
+
+#top{
+    color: rgb(245,10, 10);
+    text-align: center;
+    font-size:46px;
+}
+
+#top1{
+    color:black;
+    text-align: center;
+    font-size:21px;
+}
+
+/* Navigation bar styling*/
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    flex-direction: column;
+    background-color: gray;
+    height: 8vh;
+    width: 100vw;
+    margin-top:10px;
+   border: 2px solid black;
+   border-radius:15px;
+}
+
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    justify-content: center;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    margin: 15px;
+    border-radius: 20px;
+}
+ul li a{
+    padding: 1px;
+    color:white;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+
+/* website background image designing */
+#container1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height:63vh;
+}
+
+/*Setting the background image using before pseudo selector*/ 
+#container1::before{
+    content:'';
+    background: url("cake1.jpg") no-repeat center center/cover;
+    width: 100vw;
+    height: 40vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    margin-right:45px;
+    font-weight: bold;
+    z-index: -1;
+    opacity: 0.89;
+    border: 2px solid black;
+    border-bottom-left-radius: 100px;
+    margin: bottom 30px; ;
+}
+
+#row1{
+    color: black;
+     font-weight:bold;
+     font-size: 2rem;
+     text-align: center;
+     margin-top: 35px;
+ }
+ /*Button Styling*/
+ .btn{
+     margin-top:15px;
+     border: 3px solid white;
+     border-radius:15px;
+     background-color:rgb(248, 248, 62);
+     font-size:20px;
+     font-weight: bold;
+ }
+ .btn:hover{
+     cursor: pointer;
+     background-color: rgb(254, 246, 246);
+ }
+
+ #container3{
+    display: flex;
+    justify-content: space-evenly;
+}
+#row3{
+    width:24vw;
+    height:21vh;
+    box-shadow: 2px 7px 16px 19px;
+     margin-top:15px;
+     margin-bottom: 51px;
+     display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     position: relative;
+     margin-right: 38px;
+     border-radius: 40px;
+}
+#row3::before{
+    content: '';
+    background: url('price.png') no-repeat center center/cover;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+#row4{
+    position: relative;
+    width: 24vw;
+    height:21vh;
+    display: flex;
+    justify-content: center;
+     align-items: flex-end;
+     box-shadow: 2px 7px 16px 19px;
+     margin-top: 15px;
+     margin-bottom: 51px;
+     
+     margin-left: 38px;
+     border-radius: 40px;
+}
+#row4::before{
+    content: '';
+    background: url('pizza.jpeg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    width: 24vw;
+    height:21vh;
+    z-index: -1;
+    border-radius: 40px;
+}
+
+#top3{
+    text-align: center;
+    color:red;
+    margin-top: 30px;
+}
+#container4{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+
+#row5{
+    width: 20vw;
+    height: 300px;
+    border: 2px solid black;
+    background:url('waffle.jpeg') no-repeat left center/cover; 
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+    margin: 10px;
+}
+#row6{
+    width: 20vw;
+    height: 300px;
+    border: 2px solid black;
+    background:url('burger.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+    margin: 10px;
+}
+#row7{
+    width:20vw;
+    height: 300px;
+    border: 2px solid black;
+    background:url('coke.jpeg') no-repeat center center/cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    border-radius: 15px;
+    margin: 10px;
+}
+/*Designing the footer*/
+footer{
+    text-align: center;
+}
