@@ -1,0 +1,16 @@
+.flex-container{
+    display: flex;
+    background-color: darkgrey;
+    padding: 80px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+
+.flex-container > div{
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 30px;
+    border: 10px solid white;
+}
